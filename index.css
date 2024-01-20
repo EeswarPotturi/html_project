@@ -1,0 +1,102 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+/* ================= Header ============ */
+header{
+  position: absolute;
+  top:0%;
+  left: 0%;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+/* navbar */
+nav{
+  color: green;
+  float: right;
+  margin:30px 90px;
+}
+nav ul{
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  transition: .3s;
+}
+nav ul li a{
+  text-decoration: none;
+  color: green;
+background: white;
+  transition: .5;
+  font-size: 20px;
+  margin-left:16px;
+}
+nav ul li:hover a{
+  text-decoration: none;
+  color: purple;
+}
+nav ul li:hover{
+  height: 45px;
+  padding-top: 30px;
+  margin-top: -30px;
+ background: white;
+  text-decoration: none;
+  transform: skew(15deg);
+}
+/* Logo */
+.logo{
+  width: 46px;
+  height: 46px;
+  background: yellow;
+  margin: 40px 63px;
+  float: left;
+  transform: rotate(-30deg);
+}
+.logo span{
+  font-size: 2em;
+  line-height: 1.4;
+  padding-left: 4px;
+  font-weight: bold;
+}
+/* Header content & title & button*/
+.header-content{
+  margin-top:25%;
+  text-align: center;
+}
+.header-content h1{
+  text-transform: uppercase;
+  font-size: 48px;
+  letter-spacing: 1px;
+ margin: 20px auto;
+color:yellow;
+ 
+}
+.header-content h2 {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 20px auto;
+color:purple;
+}
+.header-content button{
+  width: 140px;
+  margin:40px 60px;
+  font-size: 14px;
+  border:2px solid white;
+  font-weight: 500;
+ background-color: orange;
+  border-radius: 20px;
+  padding: 10px;
+  cursor:cross hair;
+  transition: .2s;
+}
+.header-content button:hover{
+  border-radius: 0;

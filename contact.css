@@ -1,0 +1,42 @@
+body {
+      padding: 2em;
+background: yellow;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+
+}
+
+.frame{
+	width: 600px;
+	height: 350px;
+	margin: 250px auto 0;
+	position: relative;
+	background: url(contactbg.jpeg) no-repeat center center fixed; 
+	border-radius:0 0 40px 40px; 
+}
+#button_open_envelope{
+	width: 180px;
+	height: 40px;
+	position: absolute;
+	z-index: 311;
+	top: 236px;
+	left: 208px;
+	border-radius: 10px;
+	color: yellow;
+	font-size: 20px;
+                 text-align: center;
+	padding:15px 0; 
+	border: 2px solid white;
+	transition:.3s;
+                 background: pink;
+}
+#button_open_envelope:hover{
+	background: white;
+	transform:scale(1.1);
+	transition:background .25s, transform .5s,ease-in;
+	cursor: pointer;
+}

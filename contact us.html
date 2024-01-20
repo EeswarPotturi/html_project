@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<title>Contact us - fishing site</title>
+<link href="contact us.css" rel="stylesheet">
+
+<script>
+function reloadPage()
+{
+location.reload();
+alert("changes you made may not be saved");
+}
+
+function fun()
+{
+	alert("It will takes you to mail,Are you sure to send it.");
+}
+
+function fun1()
+{
+	alert("changes you made may not be saved");
+}
+
+</script>
+
+</head>
+<body>
+<form action="mailto:12109448cse326ca01@gmail.com"
+method="POST"
+enctype="multipart/form-data"
+name="EmailForm">
+<div class="container"> 
+   <h1 align="center"><b><i>CONTACT US FORM</i></b> </h1>
+
+<p align="center">Name:<input type="text" name="Name" required></p>
+   
+<p align="center">
+<label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email" required>
+</p>
+
+<p align="center">
+Gender:
+<input type="radio" name="gender" value="male" required>Male
+<input type="radio" name="gender" value="Female" required>Female
+</p>
+
+<p align="center">Enter your message here:<br><textarea rows="4" cols="50" name="comment" required>
+</textarea><br><br></p>
+
+<button type="submit" value="Submit" onclick="fun()">Send</button>
+<input type="button" value="Reload page" onclick="reloadPage()">
+</div> 
+</form>
+<div id = "button_open_envelope" onclick="fun1()"><a href="index.html"  target="_blank">
+				Click to go back to home page
+			</div>
+</body>
+</html>

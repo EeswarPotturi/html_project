@@ -1,0 +1,71 @@
+@keyframes color {
+  0%   { background: light green; }
+  20%  { background: sandybrown; }
+  40%  { background: plum; }
+  60%  { background: light yellow; }
+  80%  { background: sandybrown; }
+  100% { background: light green; }
+}
+
+body {
+  background: light green; /* Fallback */
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
+}
+
+
+
+
+
+
+
+/* navbar */
+nav{
+  color: green;
+  float: right;
+  margin:2px 90px;
+}
+nav ul{
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  transition: .3s;
+}
+nav ul li a{
+  text-decoration: none;
+  color: green;
+background: yellow;
+  transition: .5;
+  font-size: 20px;
+  margin-left:16px;
+}
+nav ul li:hover a{
+  text-decoration: none;
+  color: #591BC5;;
+}
+nav ul li:hover{
+  height: 45px;
+  padding-top: 30px;
+  margin-top: -30px;
+ background: yellow;
+  text-decoration: none;
+  transform: skew(15deg);
+}
+
+/* Header content */
+.header-content{
+  margin-top:12%;
+  color:  white;
+}
+.header-content h1{
+  text-transform: uppercase;
+  font-size: 48px;
+  letter-spacing: 1px;
+ margin: 60px auto;
+color:blue;
+
+  text-align: center;
+ 
+}

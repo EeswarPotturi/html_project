@@ -1,0 +1,102 @@
+body {
+      padding: 2em;
+background: url(https://wallpapercave.com/wp/wp3771737.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+
+}
+/* navbar */
+nav{
+  color: green;
+  float: right;
+  margin:2px 90px;
+}
+nav ul{
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  transition: .3s;
+}
+nav ul li a{
+  text-decoration: none;
+  color: green;
+background: yellow;
+  transition: .5;
+  font-size: 20px;
+  margin-left:16px;
+}
+nav ul li:hover a{
+  text-decoration: none;
+  color: blue;;
+}
+nav ul li:hover{
+  height: 45px;
+  padding-top: 30px;
+  margin-top: -30px;
+ background: yellow;
+  text-decoration: none;
+  transform: skew(15deg);
+}
+
+
+
+/* Header content */
+.header-content{
+  margin-top:5%;
+  color:  white;
+}
+.header-content h1{
+  font-size: 48px;
+  letter-spacing: 1px;
+ margin: 60px auto;
+color:blue;
+
+  text-align: center;
+ 
+}
+.header-content h2 {
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 20px auto;
+ text-decoration: underline;
+color:lightpink;
+
+  text-align: left;
+}
+
+.header-content h4 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    color:white;
+}
+
+.header-content p {
+  line-height:1.6;
+font-size: 28px;
+color:yellow;
+
+  text-align: left;
+}
+
+button{
+  width: 140px;
+  color: white;
+  font-size: 14px;
+  border:2px solid white;
+  font-weight: 500;
+ background-color: orange;
+  border-radius: 20px;
+  padding: 10px;
+  cursor:cross hair;
+  transition: .2s;
+}
+button:hover{
+  border-radius: 0;
+
+
